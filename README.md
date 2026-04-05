@@ -1,3 +1,5 @@
 # Effiformer---Efficient-Seizure-Classification-through-Deep-Learning
 A concatenated ViT-CNN architecture for classifying and interpreting seizure events with minimal computational costs.
 This architecture uses an EfficientNet-B3 and a DeiT-3 backbones over a CNN architecture to effectively capture global and local seizure patterns in a spectrogram-based seizure representation. The full pipeline processes EEG signals into spectrogram matrices, which are then passed onto the model for training and classification. The full pipeline also handles data augmentation to allow for smoother training, while handling class imbalances.
+
+This work is currently under review at the journal Brain Informatics (Springer Nature).
